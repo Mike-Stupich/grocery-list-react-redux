@@ -14,7 +14,7 @@ interface ItemState {
     items: Item[]
 }
 
-const itemReducer = (state: ItemState, action: ItemAction): ItemState => {
+export const itemReducer = (state: ItemState, action: ItemAction): ItemState => {
     switch(action.type) {
         case 'ADD_ITEM':
             return {
@@ -36,5 +36,3 @@ const itemReducer = (state: ItemState, action: ItemAction): ItemState => {
             return state
     }
 }
-
-export default itemReducer
