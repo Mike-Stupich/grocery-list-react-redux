@@ -1,10 +1,10 @@
-import React, { Component, PropTypes } from 'react'
+import * as React  from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import GroceryList from '../containers/GroceryList'
 
 
-class App extends Component {
+class App extends React.Component {
     public render () {
         return ( 
             <div>

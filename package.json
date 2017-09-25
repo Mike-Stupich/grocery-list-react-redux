@@ -4,20 +4,26 @@
   "description": "Gettin a better understanding of react-redux",
   "main": "index.js",
   "dependencies": {
-    "@types/node": "^8.0.30",
+    "@types/react-redux": "^5.0.9",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
+    "react-scripts-ts": "^2.7.0",
     "redux": "^3.7.2"
   },
   "devDependencies": {
+    "@types/node": "^8.0.30",
+    "@types/jest": "^21.1.0",
+    "@types/react-dom": "^15.5.4",
     "tslint": "^5.7.0",
     "tslint-config-prettier": "^1.5.0",
     "tslint-react": "^3.2.0",
     "typescript": "^2.5.2"
   },
   "scripts": {
-    "test": "test"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom"
   },
   "repository": {
     "type": "git",
