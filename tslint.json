@@ -1,0 +1,25 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended", 
+		"tslint-config-prettier", 
+		"tslint-react"
+	],
+	"rules": {
+		"no-unused-expression": true,
+		"no-duplicate-variable": true,
+		"no-unused-variable": true,
+		"curly": true,
+		"class-name": true,
+		"semicolon": false,
+		"triple-equals": true,
+		"no-console": false,
+		"only-arrow-functions": [false],
+		"object-literal-sort-keys": [false],
+		"jsx-wrap-multiline": false,
+		"no-unnecessary-type-assertion": true,
+		"no-duplicate-imports": true,
+		"ordered-imports": true,
+		"interface-name": false
+	}
+}

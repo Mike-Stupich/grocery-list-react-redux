@@ -1,0 +1,36 @@
+{
+  "name": "grocery-list-react-redux",
+  "version": "1.0.0",
+  "description": "Gettin a better understanding of react-redux",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^8.0.30",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "tslint-config-prettier": "^1.5.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-Stupich/grocery-list-react-redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Mike Stupich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-Stupich/grocery-list-react-redux/issues"
+  },
+  "homepage": "https://github.com/Mike-Stupich/grocery-list-react-redux#readme"
+}
